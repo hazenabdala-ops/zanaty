@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#050b14" />
+  <meta name="description" content="Zanaty Group - سيارات مختارة وخيارات تقسيط مرنة في سلطنة عمان." />
+  <title>Zanaty Group | سيارات في سلطنة عمان</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="intro" class="intro" aria-hidden="true">
+    <div class="intro-bg"></div><div class="speed-lines"></div>
+    <div class="intro-brand"><div class="mark">Y</div><div><strong>ZANATY</strong><span>GROUP</span></div></div>
+    <div class="intro-copy" data-ar="انطلق بثقة" data-en="DRIVE WITH CONFIDENCE">انطلق بثقة</div>
+    <div class="race-car car-a">➤</div><div class="race-car car-b">➤</div>
+  </div>
+
+  <header class="topbar">
+    <a href="#home" class="brand" aria-label="Zanaty Group"><div class="mark">Y</div><div><strong>ZANATY</strong><span>GROUP</span></div></a>
+    <nav class="nav" id="nav">
+      <a href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+      <a href="#cars" data-ar="السيارات" data-en="Cars">السيارات</a>
+      <a href="#how" data-ar="طريقة التملك" data-en="How it works">طريقة التملك</a>
+      <a href="#about" data-ar="من نحن" data-en="About">من نحن</a>
+      <a href="#contact" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a>
+    </nav>
+    <div class="head-actions">
+      <button id="langBtn" class="lang-btn" aria-label="Change language">EN</button>
+      <a class="phone-btn" href="tel:+96899091203">+968 9909 1203</a>
+      <button id="menuBtn" class="menu-btn" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-media"></div><div class="hero-shade"></div><div class="hero-speed"></div>
+      <div class="hero-content reveal">
+        <div class="eyebrow" data-ar="ZANATY GROUP • سلطنة عمان" data-en="ZANATY GROUP • OMAN">ZANATY GROUP • سلطنة عمان</div>
+        <h1 data-ar="سيارتك القادمة تبدأ من هنا" data-en="YOUR NEXT CAR STARTS HERE">سيارتك القادمة<br>تبدأ من هنا</h1>
+        <p data-ar="سيارات مختارة، عروض تقسيط مرنة، وإجراءات واضحة من البداية حتى التملك." data-en="Selected cars, flexible payment plans, and a clear process from the first step to ownership.">سيارات مختارة، عروض تقسيط مرنة، وإجراءات واضحة من البداية حتى التملك.</p>
+        <div class="hero-actions">
+          <a class="cta primary" href="#cars" data-ar="تصفح السيارات" data-en="Browse cars">تصفح السيارات</a>
+          <a class="cta ghost" href="https://wa.me/96899091203" target="_blank" rel="noopener" data-ar="واتساب" data-en="WhatsApp">واتساب</a>
+        </div>
+        <div class="hero-stats"><div><b>6</b><span data-ar="سيارات متاحة" data-en="Cars available">سيارات متاحة</span></div><div><b>12–24</b><span data-ar="شهر تقسيط" data-en="Month plans">شهر تقسيط</span></div><div><b>OMR</b><span data-ar="عروض بالريال العماني" data-en="Omani Rial offers">عروض بالريال العماني</span></div></div>
+      </div>
+      <a class="scroll" href="#cars"><span></span><small data-ar="اكتشف السيارات" data-en="Discover cars">اكتشف السيارات</small></a>
+    </section>
+
+    <section id="cars" class="section cars-section">
+      <div class="section-head reveal"><div><span class="kicker" data-ar="المعرض" data-en="SHOWROOM">المعرض</span><h2 data-ar="اختر سيارتك" data-en="CHOOSE YOUR CAR">اختر سيارتك</h2></div><p data-ar="اضغط على أي سيارة لمشاهدة الصور والعروض والتفاصيل." data-en="Open any vehicle to view its photos, finance options and details.">اضغط على أي سيارة لمشاهدة الصور والعروض والتفاصيل.</p></div>
+      <div class="filters reveal"><button class="filter active" data-filter="all" data-ar="الكل" data-en="All">الكل</button><button class="filter" data-filter="sedan" data-ar="سيدان" data-en="Sedan">سيدان</button><button class="filter" data-filter="suv" data-ar="دفع رباعي" data-en="SUV">دفع رباعي</button><button class="filter" data-filter="commercial" data-ar="تجاري" data-en="Commercial">تجاري</button></div>
+      <div id="carGrid" class="car-grid"></div>
+    </section>
+
+    <section id="how" class="section how-section">
+      <div class="section-head reveal"><div><span class="kicker" data-ar="بسيطة وواضحة" data-en="SIMPLE & CLEAR">بسيطة وواضحة</span><h2 data-ar="كيف تبدأ؟" data-en="HOW IT WORKS">كيف تبدأ؟</h2></div></div>
+      <div class="steps"><article class="step reveal"><b>01</b><h3 data-ar="اختر السيارة" data-en="Choose a car">اختر السيارة</h3><p data-ar="شاهد السيارات المتاحة وحدد العرض الأنسب لك." data-en="Browse available cars and choose the plan that fits you.">شاهد السيارات المتاحة وحدد العرض الأنسب لك.</p></article><article class="step reveal"><b>02</b><h3 data-ar="تواصل معنا" data-en="Contact us">تواصل معنا</h3><p data-ar="أرسل لنا السيارة والعرض الذي اخترته عبر واتساب أو الهاتف." data-en="Send us the car and plan you selected via WhatsApp or phone.">أرسل لنا السيارة والعرض الذي اخترته عبر واتساب أو الهاتف.</p></article><article class="step reveal"><b>03</b><h3 data-ar="أكمل الإجراءات" data-en="Complete the process">أكمل الإجراءات</h3><p data-ar="نوضح لك المتطلبات والخطوات ونبدأ إجراءات التقسيط." data-en="We explain the requirements and start the payment process.">نوضح لك المتطلبات والخطوات ونبدأ إجراءات التقسيط.</p></article><article class="step reveal"><b>04</b><h3 data-ar="ابدأ رحلتك" data-en="Drive away">ابدأ رحلتك</h3><p data-ar="بعد إتمام الإجراءات تستلم سيارتك وتبدأ خطة السداد." data-en="After completion, receive your car and begin your payment plan.">بعد إتمام الإجراءات تستلم سيارتك وتبدأ خطة السداد.</p></article></div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="about-card reveal"><div class="about-copy"><span class="kicker">ZANATY GROUP</span><h2 data-ar="اختيار أسهل. تجربة أوضح." data-en="EASIER CHOICE. CLEARER EXPERIENCE.">اختيار أسهل.<br>تجربة أوضح.</h2><p data-ar="نجمع لك السيارات والعروض في مكان واحد، مع عرض واضح للمقدم والقسط والمدة، حتى تختار بثقة." data-en="We bring vehicles and payment options together in one place, with clear down payment, monthly installment and term information so you can choose confidently.">نجمع لك السيارات والعروض في مكان واحد، مع عرض واضح للمقدم والقسط والمدة، حتى تختار بثقة.</p><a class="cta primary" href="#contact" data-ar="تواصل معنا" data-en="Contact us">تواصل معنا</a></div><div class="about-logo"><div class="mark large">Y</div><strong>ZANATY</strong><span>GROUP</span></div></div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-card reveal"><div><span class="kicker" data-ar="جاهز تختار؟" data-en="READY TO CHOOSE?">جاهز تختار؟</span><h2 data-ar="تواصل معنا الآن" data-en="CONTACT US NOW">تواصل معنا الآن</h2><p data-ar="للاستفسار عن السيارات المتاحة والعروض وإجراءات التقسيط." data-en="For vehicle availability, finance options and payment process enquiries.">للاستفسار عن السيارات المتاحة والعروض وإجراءات التقسيط.</p></div><div class="contact-actions"><a href="tel:+96899091203" class="contact-link">☎ <span>+968 9909 1203</span></a><a href="https://wa.me/96899091203" target="_blank" rel="noopener" class="contact-link whatsapp">◉ <span>WhatsApp</span></a></div></div>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><div class="mark">Y</div><div><strong>ZANATY</strong><span>GROUP</span></div></a><p>© 2026 Zanaty Group. <span data-ar="جميع الحقوق محفوظة." data-en="All rights reserved.">جميع الحقوق محفوظة.</span></p><a href="assets/files/zanaty-data.xlsx" download class="data-link" data-ar="ملف البيانات" data-en="Data file">ملف البيانات</a></footer>
+
+  <a class="float-wa" href="https://wa.me/96899091203" target="_blank" rel="noopener" aria-label="WhatsApp">◉</a>
+
+  <div id="carModal" class="modal" aria-hidden="true"><div class="modal-backdrop" data-close="1"></div><div class="modal-card"><button class="modal-close" data-close="1">×</button><div class="modal-gallery"><img id="modalMain" src="" alt=""><button id="prevImg" class="gallery-nav prev">‹</button><button id="nextImg" class="gallery-nav next">›</button><div id="thumbs" class="thumbs"></div></div><div class="modal-info"><span id="modalYear" class="kicker"></span><h2 id="modalTitle"></h2><p id="modalDesc"></p><div id="modalPlans" class="plans"></div><div class="modal-actions"><a id="modalWa" class="cta primary" target="_blank" rel="noopener" data-ar="اسأل عن السيارة" data-en="Ask about this car">اسأل عن السيارة</a><a class="cta ghost" href="tel:+96899091203" data-ar="اتصال" data-en="Call">اتصال</a></div></div></div></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
